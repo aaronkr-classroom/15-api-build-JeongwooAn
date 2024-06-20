@@ -98,6 +98,7 @@ app.use((req, res, next) => {
 
 // 애플리케이션에 Mongoose 설정
 const mongoose = require("mongoose"); // mongoose를 요청
+
 // 데이터베이스 연결 설정
 mongoose.connect(
   "mongodb://127.0.0.1:27017/ut-nodejs", //Atils 경로
@@ -142,6 +143,7 @@ app.use("/", router); // 라우터를 애플리케이션에 추가
  */
 /** @TODO: Home (Pages) 라우트의 homeRoutes.js로의 이동 */
 
+
 /** @TODO: User 라우트의 userRoutes.js로의 이동 */
 
 /** @TODO: Subscriber 라우트의 subscriberRoutes.js로의 이동 */
@@ -152,9 +154,8 @@ app.use("/", router); // 라우터를 애플리케이션에 추가
 
 /** @TODO: Talk 라우트의 talkRoutes.js로의 이동 */
 
-/** @TODO: Research 라우트의 researchRoutes.js로의 이동 */
+/** @TODO: Error 라우트의 errorRoutes.js로의 이동 */
 
-/** @TODO: Research 라우트의 researchRoutes.js로의 이동 */
 
 /**
  * =====================================================================
